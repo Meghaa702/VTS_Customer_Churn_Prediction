@@ -1,0 +1,11 @@
+tenure,monthlycharges,totalcharges,partner,dependents,phoneservice,multiplelines,internetservice,onlinesecurity,onlinebackup,deviceprotection,techsupport,streamingtv,streamingmovies,contract,paperlessbilling,paymentmethod,seniorcitizen,gender,prediction,churn probability %,remain probability %,model_used
+1,1,1,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Churn,51.11,48.89,adaboost
+1,1,1,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Churn,51.11,48.89,adaboost
+1,1,1,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,39.77,60.23,logistic_regression
+10,7,70,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),0,Female,Stay,49.95,50.05,adaboost
+10,100,1000,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),0,Female,Stay,49.83,50.17,adaboost
+10,100,1000,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),0,Female,Stay,30.44,69.56,logistic_regression
+10,100,1000,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),0,Female,Stay,28.0,72.0,random_forest
+1,1,1,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Churn,57.0,43.0,random_forest
+12,7,84,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,43.0,57.0,random_forest
+1,1,1,Yes,Yes,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,1,Female,Churn,51.14,48.86,adaboost
