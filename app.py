@@ -34,7 +34,7 @@ authenticator = stauth.Authenticate(
     credentials,
     'churn_app',  # app name
     'abcdefg',  # key
-    cookie_expiry_days=10
+    10
 )
 
 def get_base64_image(image_path):
@@ -94,9 +94,9 @@ with col1:
 
         if authentication_status == None:
             st.info('Please Log in to continue')
-            st.markdown('### **Demo credentials**')
-            st.write('Username: user')
-            st.write('Password: abc123')
+            # st.markdown('### **Demo credentials**')
+            # st.write('Username: user')
+            # st.write('Password: abc123')
             st.markdown('''
                 <style>
                 [data-testid="stSidebar"] {
@@ -109,8 +109,8 @@ if st.session_state.get('authentication_status') == False:
     with col1:
         st.title('Welcome to the VTS Customer Churn Prediction App')
         st.write('This application has been developed with dedication by Team Zigma.')
-        st.write('See something you like? Leave us a star on [GitHub](https://github.com/Team-Zigma).⭐️😍')
-        st.write('Connect with us on [LinkedIn](https://www.linkedin.com/in/team-zigma/) for further discussions.')
+        # st.write('See something you like? Leave us a star on [GitHub](https://github.com/Team-Zigma).⭐️😍')
+        # st.write('Connect with us on [LinkedIn](https://www.linkedin.com/in/team-zigma/) for further discussions.')
 
     with col2:
         st.error('Wrong username / password')
