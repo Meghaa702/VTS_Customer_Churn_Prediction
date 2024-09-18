@@ -154,7 +154,4 @@ if st.session_state.get('authentication_status'):
     ''', unsafe_allow_html=True)
 
     st.markdown('### ================================================ ')
-    try:
-        authenticator.logout('Logout', 'main')
-    except KeyError as e:
-        st.error(f"An error occurred during logout: {e}")
+    authenticator.logout('Logout', 'main')
